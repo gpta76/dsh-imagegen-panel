@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="AI image generation">
+  <defs>
+    <linearGradient id="igp-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1230"/>
+      <stop offset="1" stop-color="#2b1b45"/>
+    </linearGradient>
+    <linearGradient id="igp-line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0abfc"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#igp-bg)"/>
+  <rect x="13" y="16" width="38" height="32" rx="6" fill="none" stroke="url(#igp-line)" stroke-width="3.5"/>
+  <circle cx="24" cy="27" r="4" fill="#fde68a"/>
+  <path d="M16 42l9.5-10.5a3 3 0 0 1 4.4 0L36 39l4.2-4.6a3 3 0 0 1 4.4 0L49 40" fill="none" stroke="#a5b4fc" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M47 10l1.9 4.6 4.6 1.9-4.6 1.9L47 23l-1.9-4.6L40.5 16.5l4.6-1.9z" fill="#f0abfc"/>
+</svg>
