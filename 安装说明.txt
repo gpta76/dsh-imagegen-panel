@@ -1,0 +1,29 @@
+﻿AI 生图插件（dsh-imagegen-panel 1.0.0）—— 安装说明
+================================================
+
+一、装进 DeepSeek Harness
+1. 把整个文件夹解压出来，记住路径，例如 D:\插件\dsh-imagegen-panel-1.0.0
+2. 打开 DeepSeek Harness，在对话框里对你自己的 AI 说：
+   把 D:\插件\dsh-imagegen-panel-1.0.0 这个目录作为插件装进来
+   （AI 会调用 plugin_manager 的 install_bundle，target 就填这个目录）
+3. 装完完全退出 DeepSeek Harness 再重开，左侧栏会出现「AI 生图」。
+
+二、填一次 Key（只需一次）
+1. 去 https://gpt.ge 注册、充值，控制台「API 令牌」新建一个 Key（分组选 default，额度不限制）。
+2. 打开侧边栏「AI 生图」→ 右上「设置」：
+   - 接口地址：https://api.gpt.ge/v1
+   - 模型：gpt-image-2.6-flare
+   - API Key：粘贴刚才的 Key
+   - 输出目录：选一个你想存图的文件夹
+3. 点「测试连接」，看到「连接成功」就好了。
+
+三、出图
+写提示词 → 选尺寸 → 点「生成图片」。结果自动存进输出目录，文件名带时间戳。
+参考图按钮可以传一张正面全身图当锚点，再派生侧面/背面/表情，人物不容易跑形。
+
+四、费用
+gpt-image-2.6-flare 约 $0.05/张（中转站按次计费，具体以 gpt.ge 账单为准）。
+
+五、卸载
+插件市场 → 已安装 → 移除；或让 AI 执行 remove_bundle。
+配置文件在 用户目录\.dsh\plugin-data\imagegen-panel.json，输出目录里的图不会被删。
