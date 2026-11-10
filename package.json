@@ -1,0 +1,49 @@
+﻿{
+    "name":  "dsh-imagegen-panel",
+    "version":  "1.0.0",
+    "description":  "AI image generation console: call any OpenAI-compatible image API (gpt-image-2.6 / gpt-image-1 / DALL·E / relay) from a sidebar panel, keep the key on the host, and save character asset sheets straight into your project.",
+    "type":  "module",
+    "license":  "MIT",
+    "author":  "gpta76",
+    "keywords":  [
+                     "dsh-plugin",
+                     "image-generation",
+                     "gpt-image",
+                     "chatgpt",
+                     "character-sheet",
+                     "生图",
+                     "角色资产"
+                 ],
+    "exports":  {
+                    ".":  "./index.js",
+                    "./client":  "./client.js",
+                    "./locale/*.json":  "./locale/*.json",
+                    "./icon":  "./icon.svg"
+                },
+    "files":  [
+                  "index.js",
+                  "client.js",
+                  "cordis.patch.yml",
+                  "locale/*.json",
+                  "icon.svg",
+                  "README.md",
+                  "CHANGELOG.md"
+              ],
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           },
+                "client":  {
+                               "platform":  "web",
+                               "immediately":  true,
+                               "inject":  [
+                                              "@deepseek-ai/dsh-client-ui-conversation"
+                                          ]
+                           }
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/gpta76/dsh-imagegen-panel.git"
+                   },
+    "homepage":  "https://github.com/gpta76/dsh-imagegen-panel"
+}
