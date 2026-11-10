@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AI 生图",
+    "description": "在侧边栏用 ChatGPT 出图：gpt-image-2.6 / gpt-image-1 / DALL·E / 任意 OpenAI 兼容中转，也支持火山方舟 Seedream。填一次 Base URL 与 API Key，就能写提示词出图、自定义宽高、挂参考图锁住角色，把漫剧人物资产图直接存进项目目录，并保留最近生成记录。"
+  }
+}
