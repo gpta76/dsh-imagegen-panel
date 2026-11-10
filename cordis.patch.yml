@@ -1,0 +1,3 @@
+- insert:
+    - id: imagegen-panel
+      name: '@local/imagegen-panel'
