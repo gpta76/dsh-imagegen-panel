@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AI Image Gen",
+    "description": "Generate images with ChatGPT from the sidebar: gpt-image-2.6 / gpt-image-1 / DALL·E / any OpenAI-compatible relay, plus Volcengine Ark Seedream. Enter a Base URL and API key once, then write prompts, pick or type any pixel size, attach reference images to keep a character consistent, and save asset sheets straight into your project."
+  }
+}
