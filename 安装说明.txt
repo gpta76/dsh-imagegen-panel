@@ -1,4 +1,4 @@
-﻿AI 生图插件（dsh-imagegen-panel 1.0.0）—— 安装说明
+AI 生图插件（dsh-imagegen-panel 1.0.0）—— 安装说明
 ================================================
 
 一、装进 DeepSeek Harness
